@@ -13,4 +13,7 @@ public class DatabaseConfig {
     public static final String insertNewUser =
             "insert into APP_USER (firstname, lastname, email, phone)" +
                     " values (?, ?, ?, ?)";
+    public static final String deleteUserById = "delete APP_USER where id = ?";
+    public static final String selectAll = "select * from APP_USER";
+    public static final String selectUserById = "select * from APP_USER where id = ?";
 }
