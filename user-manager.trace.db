@@ -1,0 +1,5 @@
+2025-01-11 20:44:39.727225+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-232]
+2025-01-11 20:52:17.080757+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "update [*]from APP_USER set firstname = ?, lastname = ? where id = ?"; expected "identifier"; SQL statement:
+update from APP_USER set firstname = ?, lastname = ? where id = ? [42001-232]
