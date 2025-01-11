@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws SQLException {
         final var dbManager = DriverManager.getConnection(DatabaseConfig.DATABASE_URL); // Can also pass username and password alongside
         final var statement = dbManager.createStatement();
-        statement.execute(DatabaseConfig.createUserTable);
+        statement.execute(DatabaseConfig.CREATE_USER_TABLE_QUERY);
 
         // insert new user
 //        final var insertPrepareStatement = dbManager.prepareStatement(DatabaseConfig.insertNewUser);
